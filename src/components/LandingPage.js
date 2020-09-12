@@ -2,7 +2,7 @@ import React from "react";
 
 class LandingPage extends React.Component {
   render() {
-    return <div>Landing Page</div>;
+    return <h1>Movies Mania</h1>;
   }
 }
 
