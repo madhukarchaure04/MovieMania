@@ -3,7 +3,7 @@ nav ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-image: linear-gradient(to bottom right, #a3d463, #26daa4);
+  background-image: linear-gradient(to bottom right, #622fb3, #083c8a);
 }
 
 nav li {
@@ -20,6 +20,8 @@ nav li a {
 
 nav li a:hover {
   background-color: #d9390d;
+  text-decoration: none;
+  color: white;
 }
 
 .login {
