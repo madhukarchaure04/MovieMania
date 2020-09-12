@@ -1,0 +1,14 @@
+.center {
+  text-align: center;
+}
+
+.error {
+  color: red;
+  font-size: large;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.error a {
+  color: red;
+}
