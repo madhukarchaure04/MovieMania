@@ -1,0 +1,144 @@
+{
+    "movies": [
+        {
+            "Language": "ENGLISH",
+            "Location": "USA",
+            "Plot": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+            "Poster": "https://m.media-amazon.com/images/M/MV5BMDFkYTc0MGEtZmNhMC00ZDIzLWFmNTEtODM1ZmRlYWMwMWFmXkEyXkFqcGdeQXVyMTMxODk2OTU@._",
+            "SoundEffects": [
+                "RX6",
+                "SDDS"
+            ],
+            "Title": "The Shawshank Redemption",
+            "imdbID": "tt0111161",
+            "listingType": "NOW_SHOWING",
+            "imdbRating": "9.3"
+        },
+        {
+            "Language": "ENGLISH",
+            "Location": "AFRICA",
+            "Plot": "A young African-American man grapples with his identity and sexuality while experiencing the everyday struggles of childhood, adolescence, and burgeoning adulthood.",
+            "Poster": "https://m.media-amazon.com/images/M/MV5BNzQxNTIyODAxMV5BMl5BanBnXkFtZTgwNzQyMDA3OTE@._V1_QL50_SY1000_CR0,0,674,1000_AL_.jpg",
+            "SoundEffects": [
+                "RX6",
+                "SDDS"
+            ],
+            "Title": "Moonlight",
+            "imdbID": "tt4975722",
+            "listingType": "NOW_SHOWING",
+            "imdbRating": "7.2"
+        },
+        {
+            "Language": "ENGLISH",
+            "Location": "USA",
+            "Plot": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O.",
+            "Poster": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_QL50_SY1000_CR0,0,675,1000_AL_.jpg",
+            "SoundEffects": [
+                "RX6",
+                "SDDS"
+            ],
+            "Title": "Inception",
+            "imdbID": "tt1375666",
+            "listingType": "NOW_SHOWING",
+            "imdbRating": "8.8"
+        },
+        {
+            "Language": "ENGLISH",
+            "Location": "USA",
+            "Plot": "The presidencies of Kennedy and Johnson, the events of Vietnam, Watergate and other historical events unfold through the perspective of an Alabama man with an IQ of 75, whose only desire is to be reunited with his childhood sweetheart.",
+            "Poster": "https://m.media-amazon.com/images/M/MV5BNWIwODRlZTUtY2U3ZS00Yzg1LWJhNzYtMmZiYmEyNmU1NjMzXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_QL50_.jpg",
+            "SoundEffects": [
+                "RX6",
+                "SDDS"
+            ],
+            "Title": "Forrest Gump",
+            "imdbID": "tt0109830",
+            "listingType": "NOW_SHOWING",
+            "imdbRating": "8.8"
+        },
+        {
+            "Language": "ENGLISH",
+            "Location": "USA",
+            "Plot": "A mountain climber becomes trapped under a boulder while canyoneering alone near Moab, Utah and resorts to desperate measures in order to survive.",
+            "Poster": "https://m.media-amazon.com/images/M/MV5BMTc2NjMzOTE3Ml5BMl5BanBnXkFtZTcwMDE0OTc5Mw@@._V1_QL50_SY1000_CR0,0,675,1000_AL_.jpg",
+            "SoundEffects": [
+                "RX6",
+                "SDDS"
+            ],
+            "Title": "127 Hours",
+            "imdbID": "tt1542344",
+            "listingType": "NOW_SHOWING",
+            "imdbRating": "7.5"
+        },
+        {
+            "Language": "HINDI",
+            "Location": "INDIA",
+            "Plot": "A Mumbai teenager reflects on his life after being accused of cheating on the Indian version of Who Wants to be a Millionaire?",
+            "Poster": "https://m.media-amazon.com/images/M/MV5BZmNjZWI3NzktYWI1Mi00OTAyLWJkNTYtMzUwYTFlZDA0Y2UwXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_QL50_SY1000_CR0,0,675,1000_AL_.jpg",
+            "SoundEffects": [
+                "RX6",
+                "SDDS"
+            ],
+            "Title": "Slumdog Millionaire",
+            "imdbID": "tt1010048",
+            "listingType": "NOW_SHOWING",
+            "imdbRating": "8"
+        },
+        {
+            "Language": "ENGLISH",
+            "Location": "USA",
+            "Plot": "After awakening from a four-year coma, a former assassin wreaks vengeance on the team of assassins who betrayed her.",
+            "Poster": "https://m.media-amazon.com/images/M/MV5BNzM3NDFhYTAtYmU5Mi00NGRmLTljYjgtMDkyODQ4MjNkMGY2XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_QL50_.jpg",
+            "SoundEffects": [
+                "RX6",
+                "SDDS"
+            ],
+            "Title": "Kill Bill: Vol. 1",
+            "imdbID": "tt0266697",
+            "listingType": "NOW_SHOWING",
+            "imdbRating": "8.1"
+        },
+        {
+            "Language": "ENGLISH",
+            "Location": "USA",
+            "Plot": "Two astronauts work together to survive after an accident leaves them stranded in space.",
+            "Poster": "https://m.media-amazon.com/images/M/MV5BNjE5MzYwMzYxMF5BMl5BanBnXkFtZTcwOTk4MTk0OQ@@._V1_QL50_SY1000_CR0,0,675,1000_AL_.jpg",
+            "SoundEffects": [
+                "RX6",
+                "SDDS"
+            ],
+            "Title": "Gravity",
+            "imdbID": "tt1454468",
+            "listingType": "NOW_SHOWING",
+            "imdbRating": "7.7"
+        },
+        {
+            "Language": "ENGLISH",
+            "Location": "USA",
+            "Plot": "A young man and woman meet on a train in Europe, and wind up spending one evening together in Vienna. Unfortunately, both know that this will probably be their only night together.",
+            "Poster": "https://m.media-amazon.com/images/M/MV5BZDdiZTAwYzAtMDI3Ni00OTRjLTkzN2UtMGE3MDMyZmU4NTU4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_QL50_SY1000_CR0,0,672,1000_AL_.jpg",
+            "SoundEffects": [
+                "RX6",
+                "SDDS"
+            ],
+            "Title": "Before Sunrise",
+            "imdbID": "tt0112471",
+            "listingType": "NOW_SHOWING",
+            "imdbRating": "8.1"
+        },
+        {
+            "Language": "ENGLISH",
+            "Location": "USA",
+            "Plot": "In Nazi-occupied France during World War II, a plan to assassinate Nazi leaders by a group of Jewish U.S. soldiers coincides with a theatre owner's vengeful plans for the same.",
+            "Poster": "https://m.media-amazon.com/images/M/MV5BOTJiNDEzOWYtMTVjOC00ZjlmLWE0NGMtZmE1OWVmZDQ2OWJhXkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_QL50_SY1000_SX675_AL_.jpg",
+            "SoundEffects": [
+                "RX6",
+                "SDDS"
+            ],
+            "Title": "Inglourious Basterds",
+            "imdbID": "tt0361748",
+            "listingType": "NOW_SHOWING",
+            "imdbRating": "8.3"
+        }
+    ]
+}
