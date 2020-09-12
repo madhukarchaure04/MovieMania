@@ -1,5 +1,5 @@
 import React from "react";
-import { Route } from "react-router-dom";
+import { Route, Redirect } from "react-router-dom";
 import Auth from "../../Auth/Auth";
 import Nav from "../Nav/Nav";
 import Callback from "../Callback/Callback";
@@ -15,7 +15,6 @@ class LandingPage extends React.Component {
     return (
       <>
         <Nav auth={this.auth} />
-        <h1>Movies Mania</h1>
         <div>
           <Route
             path="/"
@@ -26,7 +25,16 @@ class LandingPage extends React.Component {
             path="/callback"
             render={(props) => <Callback auth={this.auth} {...props} />}
           />
-          <Route path="/profile" component={Profile} />
+          <Route
+            path="/profile"
+            render={(props) =>
+              this.auth.isAuthenticated() ? (
+                <Profile auth={this.auth} {...props} />
+              ) : (
+                <Redirect to="/" />
+              )
+            }
+          />
         </div>
       </>
     );

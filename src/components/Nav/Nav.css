@@ -22,11 +22,22 @@ nav li a:hover {
   background-color: #d9390d;
 }
 
-nav button {
-  margin-top: 13px;
-}
-
 .login {
   float: right;
   padding-right: 20px;
+}
+
+.nav {
+  float: right;
+}
+
+.title {
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 26px;
+  font-weight: bold;
+  padding-left: 14px;
+  padding-top: 6px;
 }

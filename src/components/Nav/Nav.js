@@ -7,18 +7,29 @@ class Nav extends React.Component {
     return (
       <nav>
         <ul>
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/profile">Profile</Link>
-          </li>
+          <li className="title">Movies Mania</li>
           <li className="login">
             {this.props.auth.isAuthenticated() ? (
-              <button onClick={this.props.auth.logout}>Log out</button>
+              // eslint-disable-next-line
+              <a tabIndex="3" href="#" onClick={this.props.auth.logout}>
+                Log out
+              </a>
             ) : (
-              <button onClick={this.props.auth.login}>Log in</button>
+              // eslint-disable-next-line
+              <a tabIndex="3" href="#" onClick={this.props.auth.login}>
+                Log in
+              </a>
             )}
+          </li>
+          <li className="nav">
+            <Link tabIndex="2" to="/profile">
+              Profile
+            </Link>
+          </li>
+          <li className="nav">
+            <Link tabIndex="1" to="/">
+              Home
+            </Link>
           </li>
         </ul>
       </nav>
