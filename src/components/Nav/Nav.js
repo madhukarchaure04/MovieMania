@@ -21,11 +21,13 @@ class Nav extends React.Component {
               </a>
             )}
           </li>
-          <li className="nav">
-            <Link tabIndex="2" to="/profile">
-              Profile
-            </Link>
-          </li>
+          {this.props.auth.isAuthenticated() ? (
+            <li className="nav">
+              <Link tabIndex="2" to="/profile">
+                Profile
+              </Link>
+            </li>
+          ) : null}
           <li className="nav">
             <Link tabIndex="1" to="/">
               Home
