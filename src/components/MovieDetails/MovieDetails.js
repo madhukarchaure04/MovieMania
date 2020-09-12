@@ -3,10 +3,28 @@ import "./MovieDetails.css";
 import "bootstrap/dist/css/bootstrap.css";
 
 export default class MovieDetails extends React.Component {
+  backKeyPress(event) {
+    if (event.charCode === 13) {
+      this.props.backButton();
+    }
+  }
   render() {
     return (
       <div>
         <h2 className="center">Movie Details</h2>
+        {/* eslint-disable-next-line */}
+        <a
+          className="back"
+          onClick={this.props.backButton}
+          onKeyPress={(event) => this.backKeyPress(event)}
+          aria-label="Back"
+          role="link"
+          tabIndex="0"
+        >
+          <span className="back_text" aria-label="Back to previous page">
+            Goto previous page
+          </span>
+        </a>
         <div className="container">
           <div className="row">
             <div className="col-sm-12 movietitle">{this.props.movie.Title}</div>
@@ -15,7 +33,7 @@ export default class MovieDetails extends React.Component {
               IMDb Rating: {this.props.movie.imdbRating}
             </div>
             <div className="col-sm-12 col-md-4 rowformat">
-              {this.props.movie.listingType === "NOW_SHOWING"
+              {this.props.movie.rowformat === "NOW_SHOWING"
                 ? "NOW SHOWING"
                 : ""}
             </div>
@@ -38,10 +56,23 @@ export default class MovieDetails extends React.Component {
               ))}
             </div>
             <div className="col-sm-12 description spacer">
-              Option to book the movie is comming soon
+              Option to book the movie is coming soon
             </div>
           </div>
         </div>
+        {/* eslint-disable-next-line */}
+        <a
+          className="back"
+          onClick={this.props.backButton}
+          onKeyPress={(event) => this.backKeyPress(event)}
+          aria-label="Back"
+          role="link"
+          tabIndex="0"
+        >
+          <span className="back_text" aria-label="Back to previous page">
+            Goto previous page
+          </span>
+        </a>
       </div>
     );
   }

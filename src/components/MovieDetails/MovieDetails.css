@@ -34,3 +34,24 @@
 .spacer {
   padding-bottom: 40px;
 }
+
+.back_ack {
+  color: #0078d4;
+}
+
+.back_ack:focus {
+  border: 1px;
+  outline: dotted;
+}
+.back_ack:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.back_text {
+  padding-left: 60px;
+  padding-bottom: 14px;
+  vertical-align: text-bottom;
+  bottom: 1px;
+  position: relative;
+}

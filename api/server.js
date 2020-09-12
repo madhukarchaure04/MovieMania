@@ -31,7 +31,6 @@ app.get("/public", function (req, res) {
 
 const getMovies = async () => {
   const response = await axios.get("http://localhost:3002/movies");
-  console.log(response.data);
   return response.data;
 };
 

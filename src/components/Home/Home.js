@@ -43,6 +43,10 @@ class Home extends Component {
     });
   }
 
+  hideMovieDetailsPage = () => {
+    this.setState({ showMovieDetailsPage: false });
+  };
+
   render() {
     return (
       <>
@@ -56,7 +60,10 @@ class Home extends Component {
                 </div>
               </div>
             ) : (
-              <MovieDetails movie={this.state.selectedMovie}></MovieDetails>
+              <MovieDetails
+                movie={this.state.selectedMovie}
+                backButton={this.hideMovieDetailsPage}
+              ></MovieDetails>
             )}
           </div>
         ) : (
