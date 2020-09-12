@@ -3,3 +3,34 @@
   padding-bottom: 20px;
   padding-top: 10px;
 }
+
+.row {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.movietitle {
+  text-align: center;
+  font-size: 50px;
+  font-style: oblique;
+  font-variant: petite-caps;
+}
+
+.movieposter {
+  text-align: center;
+}
+
+.rowformat {
+  font-style: italic;
+  font-size: 18px;
+}
+
+.description {
+  text-align: center;
+  font-size: 18px;
+  font-style: italic;
+}
+
+.spacer {
+  padding-bottom: 40px;
+}
