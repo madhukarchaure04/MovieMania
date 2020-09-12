@@ -2,12 +2,13 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import * as serviceWorker from "./serviceWorker";
-import LandingPage from "./components/LandingPage";
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import LandingPage from "./components/LandingPage/LandingPage";
 
 ReactDOM.render(
-  <React.StrictMode>
-    <LandingPage />
-  </React.StrictMode>,
+  <Router>
+    <Route component={LandingPage} />
+  </Router>,
   document.getElementById("root")
 );
 
