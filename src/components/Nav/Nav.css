@@ -1,0 +1,45 @@
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-image: linear-gradient(to bottom right, #622fb3, #083c8a);
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: #d9390d;
+  text-decoration: none;
+  color: white;
+}
+
+.login {
+  float: right;
+  padding-right: 20px;
+}
+
+.nav {
+  float: right;
+}
+
+.title {
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 26px;
+  font-weight: bold;
+  padding-left: 14px;
+  padding-top: 6px;
+}

@@ -1,0 +1,57 @@
+.center {
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+
+.row {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.movietitle {
+  text-align: center;
+  font-size: 50px;
+  font-style: oblique;
+  font-variant: petite-caps;
+}
+
+.movieposter {
+  text-align: center;
+}
+
+.rowformat {
+  font-style: italic;
+  font-size: 18px;
+}
+
+.description {
+  text-align: center;
+  font-size: 18px;
+  font-style: italic;
+}
+
+.spacer {
+  padding-bottom: 40px;
+}
+
+.back_ack {
+  color: #0078d4;
+}
+
+.back_ack:focus {
+  border: 1px;
+  outline: dotted;
+}
+.back_ack:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.back_text {
+  padding-left: 60px;
+  padding-bottom: 14px;
+  vertical-align: text-bottom;
+  bottom: 1px;
+  position: relative;
+}

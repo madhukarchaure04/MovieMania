@@ -1,0 +1,16 @@
+.center {
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+
+.error {
+  color: red;
+  font-size: large;
+  text-align: center;
+  padding-top: 180px;
+}
+
+.link {
+  color: red;
+}
